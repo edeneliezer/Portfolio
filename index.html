@@ -1,46 +1,200 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>הפורטפוליו של עדן</title>
+    <title>Eden Eliezer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>ברוכים הבאים לפורטפוליו שלי</h1>
+        <h1>Eden Eliezer</h1>
         <nav>
             <ul>
-                <li><a href="#about">אודות</a></li>
-                <li><a href="#projects">פרויקטים</a></li>
-                <li><a href="#contact">יצירת קשר</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#tools">Tools & Technologies</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="about">
-        <h2>אודותיי</h2>
-        <p>שלום! אני עדן, מפתחת עם תשוקה לטכנולוגיה, דאטה, ופיתוח תוכנה.</p>
-    </section>
-    
+
+	<section id="about">
+		<h2>About Me</h2>
+		<img src="images/eden.png" alt="Eden Eliezer" class="eden-image">
+		<p>
+			<strong class="highlight">Hi there! 🙋‍♀️</strong><br><br>
+			My biggest passion (right after dogs 🐶) is working with data – because honestly, <strong class="highlight">data tells the best stories!</strong> 📚✨
+			<br><br>
+			There’s something truly exciting about the way <strong class="highlight">data</strong> reveals patterns, answers questions, and helps people <strong class="highlight">make smarter decisions</strong> – and I’m here for all of it. 🤓💡
+			<br><br>
+			I enjoy asking <strong class="highlight">“why”</strong>, figuring out the <strong class="highlight">“how”</strong>, and building the <strong class="highlight">“what”</strong> – whether through <strong class="highlight">data analysis</strong>, <strong class="highlight">engineering</strong>, or just some good old <strong class="highlight">Python</strong> magic. 📊
+			<br><br>
+			I bring <strong class="highlight">positivity</strong>, <strong class="highlight">curiosity</strong>, and a <strong class="highlight">creative spark</strong> to every project – and I love working with people who share that vibe. 💫
+			<br><br>
+			Looking for my next <strong class="highlight">student role in the data world</strong>, where I can grow, contribute, and keep doing what I love (while maybe sharing a few dog pics too). 🐶🪴
+		</p>
+	</section>
+
+    <section id="tools">
+	  <h2>Tools & Technologies</h2>
+
+	  <div class="tools-grid">
+		<div class="tool"><img src="images/tools/java.png" alt="Java"><p>Java</p></div>
+		<div class="tool"><img src="images/tools/python.png" alt="Python"><p>Python</p></div>
+		<div class="tool"><img src="images/tools/mysql.png" alt="SQL"><p>SQL</p></div>
+		<div class="tool"><img src="images/tools/github.png" alt="GitHub"><p>GitHub</p></div>
+		<div class="tool"><img src="images/tools/tableau.png" alt="Tableau"><p>Tableau</p></div>
+		<div class="tool"><img src="images/tools/c.png" alt="C"><p>C</p></div>
+	  </div>
+
+	  <div class="tools-grid second-row">
+		<div class="tool"><img src="images/tools/html5.png" alt="HTML"><p>HTML</p></div>
+		<div class="tool"><img src="images/tools/css3.png" alt="CSS"><p>CSS</p></div>
+		<div class="tool"><img src="images/tools/jupyter.png" alt="Jupyter"><p>Jupyter</p></div>
+		<div class="tool"><img src="images/tools/pycharm.png" alt="PyCharm"><p>PyCharm</p></div>
+	  </div>
+	</section>
+
+
     <section id="projects">
-        <h2>הפרויקטים שלי</h2>
-        <ul>
-            <li>📌 <strong>פרויקט 1:</strong> ניתוח נתונים עם פייתון</li>
-            <li>📌 <strong>פרויקט 2:</strong> אפליקציה לניהול משימות</li>
-            <li>📌 <strong>פרויקט 3:</strong> אתר תדמיתי מבוסס React</li>
-        </ul>
-    </section>
-    
+	  <h2>My Projects</h2>
+
+		<!-- Backgammon -->
+		<div class="project-card side-by-side">
+		  <div class="project-text">
+			<h3>🎲 Backgammon Game <span>(Java, OOP)</span></h3>
+			<p>A Java-based backgammon game developed to practice and implement <strong>object-oriented programming principles</strong> and <strong>design patterns</strong>.</p>
+			<ul>
+			  <li><strong class="highlight">👥 Player vs Player gameplay</strong></li>
+			  <li><strong class="highlight">♻️ Factory & Observer patterns</strong> for extensibility</li>
+			  <li><strong class="highlight">📏 Clean class structure</strong> and modular code</li>
+			</ul>
+			<p>Demonstrates my ability to develop structured games in Java with proper OOP architecture.</p>
+			<a href="https://github.com/edeneliezer/Backgammon-Java" target="_blank"><i class="fab fa-github fa-2x github-icon"></i></a>
+		  </div>
+		  <div class="project-screenshots">
+			<a href="images/Backgammon/roll.png" class="lightbox-trigger"><img src="images/Backgammon/roll.png" alt="Dice Roll"></a>
+			<a href="images/Backgammon/start.png" class="lightbox-trigger"><img src="images/Backgammon/start.png" alt="Start Game"></a>
+			<a href="images/Backgammon/minus.png" class="lightbox-trigger"><img src="images/Backgammon/minus.png" alt="Game Board"></a>
+			<a href="images/Backgammon/surprise.png" class="lightbox-trigger"><img src="images/Backgammon/surprise.png" alt="Surprise Station"></a>
+			<a href="images/Backgammon/question.png" class="lightbox-trigger"><img src="images/Backgammon/question.png" alt="Game Board"></a>
+			<a href="images/Backgammon/settings.png" class="lightbox-trigger"><img src="images/Backgammon/settings.png" alt="Game Board"></a>
+		  </div>
+		</div>
+
+		<!-- Language Modeling & Text Classification -->
+		<div class="project-card side-by-side">
+		  <div class="project-text">
+			<h3>🧠 Language Modeling & Text Classification <span>(Python, ML, NLP)</span></h3>
+			<p>This project explores various machine learning and NLP techniques to perform text classification, topic clustering, and language modeling using a diverse corpus.</p>
+			<ul>
+			  <li><strong class="highlight">🗂 Text Preprocessing</strong> with tokenization, stemming, and vectorization</li>
+			  <li><strong class="highlight">📚 Classification Models</strong> including Naive Bayes, Logistic Regression, and SVM</li>
+			  <li><strong class="highlight">🔍 Unsupervised Topic Clustering</strong> using K-Means and DBSCAN</li>
+			  <li><strong class="highlight">🧮 Language Modeling</strong> with N-grams and perplexity evaluation</li>
+			</ul>
+			<p>This project demonstrates solid understanding of NLP fundamentals and hands-on experience with model training, evaluation, and feature engineering using <strong>scikit-learn</strong> and <strong>Pandas</strong>.</p>
+		  </div>
+
+		  <div class="project-screenshots">
+			<a href="images/IR/IR1.png" class="lightbox-trigger"><img src="images/IR/IR1.png" alt="IR Screenshot 1"></a>
+			<a href="images/IR/IR2.png" class="lightbox-trigger"><img src="images/IR/IR2.png" alt="IR Screenshot 2"></a>
+			<a href="images/IR/IR3.png" class="lightbox-trigger"><img src="images/IR/IR3.png" alt="IR Screenshot 3"></a>
+			<a href="images/IR/IR4.png" class="lightbox-trigger"><img src="images/IR/IR4.png" alt="IR Screenshot 4"></a>
+			<a href="https://github.com/edeneliezer/Language-Modeling-Text-Classification-and-Clustering-with-Machine-Learning" target="_blank">
+			  <i class="fab fa-github fa-2x github-icon"></i>
+			</a>
+		  </div>
+		</div>
+
+	  <!-- Perfect Trip -->
+	  <div class="project-card">
+		<div class="project-text">
+		  <h3>🌍 Perfect Trip <span>(Java, MS Access)</span></h3>
+		  <p>A Java desktop application that allows users to search for ideal trips based on preferences, using an <strong>Access Database</strong>.</p>
+		  <ul>
+			<li><strong class="highlight">🔎 Custom search logic</strong> based on user inputs</li>
+			<li><strong class="highlight">🗃 Database querying</strong> using SQL over Access</li>
+			<li><strong class="highlight">📁 User-friendly interface</strong> with clean layout</li>
+		  </ul>
+		  <p>Focuses on integrating backend logic with GUI and database interaction in Java.</p>
+		</div>
+		<div class="project-image">
+			<a href="images/perfect_trip.png" class="lightbox-trigger">
+			  <img src="images/perfect_trip.png" alt="Perfect Trip Screenshot" class="project-large">
+			</a>
+		  <a href="https://github.com/edeneliezer/Perfect-Trip-System" target="_blank"><i class="fab fa-github fa-2x github-icon"></i></a>
+		</div>
+	  </div>
+
+		<!-- Hotel Management System -->
+		<div class="project-card side-by-side">
+		  <!-- טקסט משמאל -->
+		  <div class="project-text">
+			<h3>🏨 Hotel Management System <span>(Java, OOP)</span></h3>
+			<p>A complete system built in Java to manage hotel reservations, employee records, and room availability.</p>
+			<ul>
+			  <li><strong class="highlight">🛏 Room Booking</strong> and availability checks</li>
+			  <li><strong class="highlight">👩‍💼 Employee and department management</strong></li>
+			  <li><strong class="highlight">📤 CSV export functionality</strong> for data reports</li>
+			</ul>
+			<p>This project shows strong skills in class structure, data storage and export, and modular development.</p>
+			<a href="https://github.com/edeneliezer/Eden-Hotel" target="_blank">
+			  <i class="fab fa-github fa-2x github-icon"></i>
+			</a>
+		  </div>
+
+		  <!-- תמונות מימין -->
+			<div class="project-screenshots">
+			  <a href="images/EdenHotel/login.png" class="lightbox-trigger"><img src="images/EdenHotel/login.png" alt="Login Screen"></a>
+			  <a href="images/EdenHotel/menu.png" class="lightbox-trigger"><img src="images/EdenHotel/menu.png" alt="Menu Screen"></a>
+			  <a href="images/EdenHotel/search.png" class="lightbox-trigger"><img src="images/EdenHotel/search.png" alt="Search Screen"></a>
+			  <a href="images/EdenHotel/addStandardRoom.png" class="lightbox-trigger"><img src="images/EdenHotel/addStandardRoom.png" alt="Add Room Screen"></a>
+			</div>
+		</div>
+	</section>
+
     <section id="contact">
-        <h2>צרו קשר</h2>
-        <p>אפשר ליצור איתי קשר במייל: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <h2>Contact Me</h2>
+        <p><i class="fas fa-phone"></i> <a href="tel:+972526769009">+972 526769009</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:edeneliezer@outlook.com">edeneliezer@outlook.com</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/eden-eliezer/" target="_blank">Eden Eliezer</a></p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/edeneliezer/" target="_blank">edeneliezer</a></p>
     </section>
-    
+
     <footer>
-        <p>&copy; 2025 עדן אליעזר | כל הזכויות שמורות</p>
+        <p>&copy; 2025 Eden Eliezer | All Rights Reserved</p>
     </footer>
-    
-    <script src="script.js"></script>
+
+	<div id="lightbox">
+	  <img src="" alt="Expanded view">
+	</div>
+
+  <div id="lightbox">
+    <img src="" alt="Expanded view">
+  </div>
+
+  <script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    const triggers = document.querySelectorAll('.lightbox-trigger');
+
+    triggers.forEach(trigger => {
+      trigger.addEventListener('click', e => {
+        e.preventDefault();
+        const imgSrc = trigger.getAttribute('href');
+        lightboxImg.src = imgSrc;
+        lightbox.classList.add('active');
+      });
+    });
+
+    lightbox.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+      lightboxImg.src = '';
+    });
+  </script>
+
 </body>
 </html>
