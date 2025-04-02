@@ -204,6 +204,30 @@ html {
 }
 
 @media (max-width: 768px) {
+	
+	body {
+    display: block;
+    padding-top: 90px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-card.side-by-side {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card.side-by-side .project-text,
+  .project-card.side-by-side .project-screenshots {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .project-screenshots img {
+    max-width: 100%;
+    height: auto;
+  }
+  /*
 	body{
 		width: 90%;
 		padding-top: 90px;
@@ -222,7 +246,7 @@ html {
 
   .project-card.side-by-side .project-screenshots {
     grid-template-columns: 1fr;
-  }
+  }*/
   
   h2 {
     font-size: 22px;
