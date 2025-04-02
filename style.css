@@ -244,22 +244,22 @@ html {
 
 .project-card.side-by-side .project-text {
   flex: 1;
-  min-width: 690px;
+  max-width: 690px;
 }
 
 .project-card.side-by-side .project-screenshots {
   flex: 1;
-  min-width: 300px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);  
-  grid-template-rows: auto auto;          
-  gap: 15px;                              
+  min-width: 200px;
+  display: grid;       
+  gap: 4px;  
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  justify-items: start; 
+  align-items: start;  
+  max-width: 430px;
 }
 
 .project-screenshots img {
   width: 100%;
-  max-height: 180px;
-  min-height: unset;
   object-fit: contain;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -277,11 +277,17 @@ html {
   transform: scale(1.03);
 }
 
+.project-image {
+  flex: 0 0 auto;
+  max-width: 430px;
+  text-align: center;
+}
+
 .project-large {
-  width: 500px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 10px;
-  float: right;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: transform 0.3s ease;
 }
